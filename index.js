@@ -70,10 +70,12 @@
         };
       },
       /**
-       * @param {number} pointA.distance - pointA's distance
-       * @param {number} pointB.distance - pointB's distance
+       * @param {number} pointA.x - pointA's X value
+       *  @param {number} pointA.y - pointA's Y value
+       * @param {number} pointB.x - pointB's X value
+       * @param {number} pointB.y - pointB's Y value
        */
-      calculateDistance: function () {
+      calculateDistance: function (pointA, pointB) {
         const distanceX = pointB.x - pointA.x;
         const distanceY = pointB.y - pointA.y;
         const distance = Math.sqrt(
