@@ -71,7 +71,7 @@
       },
       /**
        * @param {number} pointA.x - pointA's X value
-       *  @param {number} pointA.y - pointA's Y value
+       * @param {number} pointA.y - pointA's Y value
        * @param {number} pointB.x - pointB's X value
        * @param {number} pointB.y - pointB's Y value
        */
