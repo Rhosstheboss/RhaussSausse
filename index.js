@@ -4,6 +4,22 @@
   window.rhaussSausse = window.rhaussSausse || {
     numz: {
       /* other code */
+      // calculating angles degrees
+      getAngleDegrees(pointA, pointB){
+        const distanceX = pointB.x - pointA.x;
+        const distanceY = pointB.y - pointA.y;
+        const radians = Math.atan2(distanceY, distanceX);
+        const degrees = radians * 180 / Math.PI;
+        return degrees;
+      },
+      // how to convert from degrees to radians
+      degreesToRadians(degrees) {
+        return degrees * Math.PI / 180;
+      },
+      // how to convert from radians to degrees
+      radiansToDegrees(radians) {
+        return radians * 180 / Math.PI;
+      },
     },
     phyz: {
       /**
