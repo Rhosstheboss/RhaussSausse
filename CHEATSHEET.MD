@@ -21,6 +21,18 @@ To re-release your library to `bower`:
 5. `git tag -a v0.1.0 -m "<message that describes changes>"`
 6. `git push origin main --tags`.  **DON'T FORGET --tags
 
+<hr>
+
+### Installing Your Library into an Eternal Project
+
+To install your library into another project:
+
+1. In the terminal, 'cd' into the project
+2. Run 'npm install -g bower'
+3. Run 'bower install https://github.com/Rhosstheboss/RhaussSausse.git'
+
+<hr>
+
 References:
 
 * <a href="http://bob.yexley.net/creating-and-maintaining-your-own-bower-package/" target="_blank">Creating & Maintaining Your Own Bower Package</a>
