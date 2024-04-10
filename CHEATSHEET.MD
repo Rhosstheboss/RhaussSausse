@@ -29,7 +29,7 @@ To install your library into another project:
 
 1. In the terminal, 'cd' into the project
 2. Run 'npm install -g bower'
-3. Run 'bower install https://github.com/Rhosstheboss/RhaussSausse.git'
+3. Run 'bower install --save https://github.com/Rhosstheboss/RhaussSausse.git'
 
 <hr>
 
